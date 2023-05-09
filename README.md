@@ -13,12 +13,15 @@
 </h2>
 </div>
 
+
+
 <!-- Make a table linking levels and link toward solutions-->
+<div align="center">
 <table>
   <thead>
     <tr>
-      <th><h3>Level</h3></th>
-      <th><h3>Solutions</h3></th>
+      <th><h5>Level</h5></th>
+      <th><h5>Solutions</h5></th>
     </tr>
   </thead>
   <tbody>
@@ -28,4 +31,16 @@
     </tr>
   </tbody>
 </table>
+</div>
+
+
+
+<!-- Make instructions on how to install and run the code-->
+### Installation
+
+1. #### (_Optional_) Create a Python virtual environment for the solutions
+   
+   ```bash
+   python3 -m venv <your_venv_name>
+   ```
 
