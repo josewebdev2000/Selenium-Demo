@@ -1,7 +1,12 @@
 # Selenium Demo Exercise Solutions
 
 ---
-<center>![Automation Image](./automation.png)</center>
+
+<center>
+
+![Automation Image](./automation.png)
+
+</center>
 
 ---
 
