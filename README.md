@@ -44,3 +44,9 @@
    python3 -m venv <your_venv_name>
    ```
 
+2. #### Install the required dependencies from the (_requirements.txt_) file
+   
+   ```bash
+   pip3 -r install requirements.txt
+   ```
+
