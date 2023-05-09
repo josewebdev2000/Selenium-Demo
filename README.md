@@ -20,8 +20,8 @@
 <table>
   <thead>
     <tr>
-      <th><h5>Level</h5></th>
-      <th><h5>Solutions</h5></th>
+      <th><h4>Level</h4></th>
+      <th><h4>Solutions</h4></th>
     </tr>
   </thead>
   <tbody>
@@ -41,7 +41,8 @@
 1. #### Clone this GitHub repository
    
    ```bash
-   git clone https://github.com/josewebdev2000/Selenium-Demo.git```
+   git clone https://github.com/josewebdev2000/Selenium-Demo.git
+   ```
 
 2. #### (_Optional_) Create a Python virtual environment for the solutions
    
