@@ -2,11 +2,9 @@
 
 ---
 
-<center>
-
-![Automation Image](./automation.png)
-
-</center>
+<div align="center">
+    <img src="./automation.png" alt="Automation Image">
+</div>
 
 ---
 
