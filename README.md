@@ -7,8 +7,11 @@
 </div>
 
 ---
-
-Solutions to the automation exercises available at [Selenium Demo](https://demo.seleniumeasy.com/)
+<div>
+<p>Solutions to the automation exercises available at 
+    <a href="https://demo.seleniumeasy.com/" target="_blank">Easy Selenium Demo</a>
+</p>
+</div>
 
 
 
