@@ -5,6 +5,7 @@
 
 <img src="https://selenium-python.readthedocs.io/_static/logo.png" width="70" alt="Selenium Symbol">
 </p>
+
 ---
 
 <div align="center">
