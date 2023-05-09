@@ -1,8 +1,8 @@
 # Selenium Demo Exercise Solutions
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png" alt="Python Symbol">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/935px-Python-logo-notext.svg.png" width="100" alt="Python Symbol">
 
-<img src="https://selenium-python.readthedocs.io/_static/logo.png" alt="Selenium Symbol">
+<img src="https://selenium-python.readthedocs.io/_static/logo.png" width="100" alt="Selenium Symbol">
 
 ---
 
