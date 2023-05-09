@@ -1,7 +1,8 @@
 # Selenium Demo Exercise Solutions
 
 ---
-![Automation Image](./automation.png)
+<center>![Automation Image](./automation.png)</center>
+
 ---
 
 Solutions to the automation exercises available at [Selenium Demo](https://demo.seleniumeasy.com/)
