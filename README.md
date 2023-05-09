@@ -36,17 +36,45 @@
 
 
 <!-- Make instructions on how to install and run the code-->
-### Installation
+### Installation and Usage
 
-1. #### (_Optional_) Create a Python virtual environment for the solutions
+1. #### Clone this GitHub repository
+   
+   ```bash
+   git clone https://github.com/josewebdev2000/Selenium-Demo.git```
+
+2. #### (_Optional_) Create a Python virtual environment for the solutions
    
    ```bash
    python3 -m venv <your_venv_name>
    ```
 
-2. #### Install the required dependencies from the (_requirements.txt_) file
+3. #### Install the required dependencies from the (_requirements.txt_) file
    
    ```bash
    pip3 -r install requirements.txt
    ```
+
+4. #### Go to the directory of interest
+   
+   ```bash
+   cd <directory_of_interest>
+   ```
+
+   Example:
+   ```bash
+   cd basic
+   ```
+
+5. #### Run the challenge solution of interest
+   
+   ```bash
+   python <solution_of_interest_file_name>.py
+   ```
+
+   Example:
+   ```bash
+   python simple_form_solution.py
+   ```
+   
 
