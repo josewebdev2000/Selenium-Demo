@@ -32,6 +32,9 @@ def main():
     print(f"Results for teenager: {teenage_girl}")
     print(f"Results for adult 1: {dad}")
     print(f"Results for adult 2: {mom}")
+    
+    # Close the driver
+    my_fox_driver.close()
 
 
 def gender_exercise(driver, chosen_gender):

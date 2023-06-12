@@ -1,9 +1,10 @@
-# Generic functions that help to solve exercises
+# Normal Selenium Sync Libraries
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 
+# My libraries
 import utils.constants as constants
 
 def get_firefox_driver(*args):
@@ -25,5 +26,3 @@ def get_firefox_driver(*args):
     
     # return the driver
     return firefox_driver
-    
-    
