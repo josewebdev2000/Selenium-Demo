@@ -1,3 +1,5 @@
+# Solution to Select Element Exercise
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
@@ -59,7 +61,7 @@ def multi_select_exercise(driver, state):
     actions = ActionChains(driver)
     
     # Scroll to the dropdown element
-    driver.execute_script("arguments[0].scrollIntoView();", select_dropdown)
+    driver.execute_script(constants.SCROLL_DOWN_JS_SCRIPT, select_dropdown)
     
     # Press Ctrl down
     actions.key_down(Keys.CONTROL)
@@ -68,7 +70,7 @@ def multi_select_exercise(driver, state):
     actions.move_to_element(select_dropdown)
     
     # Scroll to the option to choose
-    driver.execute_script("arguments[0].scrollIntoView();", option_to_choose)
+    driver.execute_script(constants.SCROLL_DOWN_JS_SCRIPT, option_to_choose)
     
     # Move to the desired option
     actions.move_to_element(option_to_choose)
@@ -86,7 +88,7 @@ def multi_select_exercise(driver, state):
     btn_actions = ActionChains(driver)
     
     # Scroll to the button element
-    driver.execute_script("arguments[0].scrollIntoView();", btn_first)
+    driver.execute_script(constants.SCROLL_DOWN_JS_SCRIPT, btn_first)
     
     btn_actions.click(btn_first)
     
