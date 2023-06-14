@@ -12,6 +12,7 @@ RADIO_BOX_DEMO = "https://demo.seleniumeasy.com/basic-radiobutton-demo.html"
 SELECT_DROPDOWN_DEMO = "https://demo.seleniumeasy.com/basic-select-dropdown-demo.html"
 JS_ALERTS_DEMO = "https://demo.seleniumeasy.com/javascript-alert-box-demo.html"
 BOOTSTRAP_ALERTS_DEMO = "https://demo.seleniumeasy.com/bootstrap-alert-messages-demo.html"
+BOOTSTRAP_MODALS_DEMO = "https://demo.seleniumeasy.com/bootstrap-modal-demo.html"
 
 # JS Scripts
 SCROLL_DOWN_JS_SCRIPT = "arguments[0].scrollIntoView();"
