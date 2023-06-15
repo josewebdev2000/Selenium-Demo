@@ -37,7 +37,7 @@
     </tr>
     <tr>
       <td>Intermediate</td>
-      <td><a href="./intermediate">Intermediate Challenges</a></td>
+      <td><a href="./intermediate">Intermediate Challenges Solutions</a></td>
     </tr>
   </tbody>
 </table>
