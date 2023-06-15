@@ -35,6 +35,10 @@
       <td>Basic</td>
       <td><a href="./basic">Basic Challenges Solutions</a></td>
     </tr>
+    <tr>
+      <td>Intermediate</td>
+      <td><a href="./intermediate">Intermediate Challenges</a></td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -73,7 +77,65 @@
    cd basic
    ```
 
-5. #### Run the challenge solution of interest
+5. #### Provide required environment variables
+   
+   There are two environment variables that are required to run any automation script found in this project
+
+   ```bash
+   DRIVER_PATH
+   ```
+
+   This is the path to the folder that contains the web browser driver.
+   Since this project uses Firefox. Then, supply the path to your <b>geckodriver</b>
+
+   ###### Linux Command
+
+   ```bash
+   export DRIVER_PATH=<path_to_folder_of_your_geckodriver>
+   ```
+
+   ###### Windows Command
+
+   ```bash
+   set DRIVER_PATH=<path_to_folder_of_your_geckodriver>
+   ```
+
+   ```bash
+   BIN_PATH
+   ```
+
+   This is the path to the executable binary of the web browser.
+   Since this project uses Firefox. Then, supply the path to your <b>firefox</b> executable file.
+
+   ###### Linux Command
+
+   ```bash
+   export BIN_PATH=<path_to_your_firefox_binary>
+   ```
+
+   ###### Windows Command
+
+   ```bash
+   set BIN_PATH=<path_to_your_firefox_binary>
+   ```
+
+   ###### Note
+
+   If your operating system is <b>Ubuntu</b> the following values have been provided to you by default
+
+   ```bash
+   DRIVER_PATH=/usr/local/bin
+   ```
+
+   ```bash
+   BIN_PATH=/usr/bin/firefox
+   ```
+
+   As a result, as long as the path to the folder to your geckodriver is <code>/usr/local/bin</code> you <b>WON'T</b> need to set up the <code>DRIVER_PATH</code> environment variable.
+
+   Likewise, as long as the path to your firefox binary is <code>/usr/bin/firefox</code> you <b>WON'T</b> need to set up the <code>BIN_PATH</code> environment variable.
+
+6. #### Run the challenge solution of interest
    
    ```bash
    python <solution_of_interest_file_name>.py
@@ -83,5 +145,3 @@
    ```bash
    python simple_form_solution.py
    ```
-   
-
