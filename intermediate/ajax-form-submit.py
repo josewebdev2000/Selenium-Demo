@@ -22,6 +22,8 @@ def main():
     
     print("Server Response: \n" + server_response) 
     
+    fox_driver.close()
+    
 
 def fill_up_ajax_form(driver, name_value, comment_value):
     """Fill up and submit an AJAX Form."""
