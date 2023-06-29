@@ -12,6 +12,8 @@ JQUERY_SELECT_DROPDOWN_DEMO = "https://demo.seleniumeasy.com/jquery-dropdown-sea
 BOOTSTRAP_LIST_BOX_DEMO = "https://demo.seleniumeasy.com/bootstrap-dual-list-box-demo.html"
 JQUERY_LIST_BOX_DEMO = "https://demo.seleniumeasy.com/jquery-dual-list-box-demo.html"
 DATA_LIST_FILTER_DEMO = "https://demo.seleniumeasy.com/data-list-filter-demo.html"
+PROGRESS_BAR_MODAL_DEMO = "https://demo.seleniumeasy.com/bootstrap-progress-bar-dialog-demo.html"
+FILE_DOWNLOAD_DEMO = "https://demo.seleniumeasy.com/generate-file-to-download-demo.html"
 
 # JS Scripts
 SCROLL_DOWN_JS_SCRIPT = "arguments[0].scrollIntoView();"
