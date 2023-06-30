@@ -39,6 +39,10 @@
       <td>Intermediate</td>
       <td><a href="./intermediate">Intermediate Challenges Solutions</a></td>
     </tr>
+    <tr>
+      <td>Advanced</td>
+      <td><a href="./advanced/">Advanced Challenges Solutions</a></td>
+    </tr>
   </tbody>
 </table>
 </div>
